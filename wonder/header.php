@@ -40,6 +40,10 @@
               <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
             </li>
+              
+              <li class="nav-item">
+              <a class="nav-link" href="daily.php">Daily</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -48,9 +52,10 @@
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-          <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+          <h1 class="masthead-heading mb-0"><?=$pageHeader?></h1>
+          <h2 class="masthead-subheading mb-0"><?=$subHeader?></h2>
           <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+          <?=$sloganIcon?>
         </div>
       </div>
       <div class="bg-circle-1 bg-circle"></div>
