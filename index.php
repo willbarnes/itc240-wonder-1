@@ -1,5 +1,5 @@
 <?php include 'includes/config.php';?>      
-<?php get_header()?>  
+<?php get_header()?> 
 
 
               <h2 class="display-4">Look at that content.</h2>

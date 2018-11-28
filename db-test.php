@@ -1,5 +1,5 @@
-<?php include 'config.php';?>   
-<?php include 'header.php';?>   
+<?php include 'includes/config.php';?>      
+<?php get_header()?>   
 <?php
 
 $sql = "select * from test_Customers";
@@ -26,4 +26,4 @@ if (mysqli_num_rows($result) > 0)//at least one record!
 
 
 ?>
-<?php include 'footer.php'?>
+<?php get_footer()?>
